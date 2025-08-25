@@ -13,5 +13,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // Tilføj katten "Sniffles" til catsArray.
     catsArray.push("Sniffles")
     console.log(catsArray)
+
+    
+    // Opgave 3a
+    // Check om der i dogsArray er en hund som hedder "Trixie".
+    // Udskriv "true" eller "false" i konsollen afhængig af svaret.
+    console.log(dogsArray.filter((dog) => dog === "Trixie").length > 0)
+
+    // Opgave 3b
+    // Check om der i dogsArray er en hund som hedder "Baxter".
+
+    console.log(dogsArray.filter((dog) => dog === "Baxter").length > 0)
 }) 
 
