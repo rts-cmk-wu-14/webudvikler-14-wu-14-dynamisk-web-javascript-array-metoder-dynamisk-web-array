@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
      //  et nyt array, som indeholder alle de tal som er større end 20.
     let res1 = numbersArray.filter((elm) => elm > 20)
     console.log(res1);
+    
 
      // Opgave 2
     // Tilføj katten "Sniffles" til catsArray.
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(catsArray)
 
     
+
     // Opgave 3a
     // Check om der i dogsArray er en hund som hedder "Trixie".
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
@@ -22,7 +24,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Opgave 3b
     // Check om der i dogsArray er en hund som hedder "Baxter".
-
     console.log(dogsArray.filter((dog) => dog === "Baxter").length > 0)
+
+    
+
+    //Opgave 4a
+    // Check om der i catsArray er en kat som hedder "Bagheera".
+    // Udskriv katten i konsollen hvis den findes og ellers "undefined".
+    console.log(catsArray.includes("Bagheera") ? "Bagheera" : undefined);
+
+    // Opgave 4b
+    // Check om der i catsArray er en kat som hedder "Salem".
+    // Udskriv katten i konsollen hvis den findes og ellers "undefined".
+    // console.log("Opgave 4b", ...)
+    console.log(catsArray.includes("Salem") ? "Salem" : undefined);
+
+
 }) 
 
