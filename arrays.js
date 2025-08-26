@@ -38,9 +38,21 @@ document.addEventListener("DOMContentLoaded", function () {
     // Udskriv katten i konsollen hvis den findes og ellers "undefined".
     console.log(catsArray.includes("Salem") ? "Salem" : undefined)
 
+
     // Opgave 5
     // Oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
     const arrayR = numbersArray.map(num => num * 3)
     console.log(arrayR)
+
+    // Opgave 6
+    // Udskriv alle hundene i dogsArray i én lang streng.
+    // (Sådan her: BarneyMollyBaxter...)
+   let HA = dogsArray.join(" ")
+   console.log(HA)
+   
+
+
+
+
 }) 
 
