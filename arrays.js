@@ -31,14 +31,16 @@ document.addEventListener("DOMContentLoaded", function () {
     //Opgave 4a
     // Check om der i catsArray er en kat som hedder "Bagheera".
     // Udskriv katten i konsollen hvis den findes og ellers "undefined".
-    console.log(catsArray.includes("Bagheera") ? "Bagheera" : undefined);
+    console.log(catsArray.includes("Bagheera") ? "Bagheera" : undefined)
 
     // Opgave 4b
     // Check om der i catsArray er en kat som hedder "Salem".
     // Udskriv katten i konsollen hvis den findes og ellers "undefined".
-    // console.log("Opgave 4b", ...)
-    console.log(catsArray.includes("Salem") ? "Salem" : undefined);
+    console.log(catsArray.includes("Salem") ? "Salem" : undefined)
 
-
+    // Opgave 5
+    // Oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
+    const arrayR = numbersArray.map(num => num * 3)
+    console.log(arrayR)
 }) 
 
